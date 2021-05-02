@@ -11,3 +11,12 @@ class Deposit:
         interest = amount_end_of_term - self.deposit
 
         return interest
+
+
+deposit = Deposit(
+    deposit=1000,
+    term=2,
+    rate=0.05,
+)
+
+interest = deposit.interest()

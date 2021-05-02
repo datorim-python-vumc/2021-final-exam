@@ -1,1 +1,1 @@
-web: gunicorn site:lu_final_exam.wsgi --log-file -
+web: gunicorn lu_final_exam.wsgi --log-file -

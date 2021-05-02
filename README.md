@@ -22,3 +22,6 @@ print(interest)
 - Izveidot view, kas renderēs informāciju par konkrētu ``deposits`` tabulas ierakstu. Tas tiek parādīts uz '/deposit/<primary key>'
 - Izdarīt tā, lai iesniedzot formu uz '/deposit/new', tiek atvērts saraksts ar visiem tabulas ``deposits`` ierakstiem.
 - Izdarīt tā, lai sarakstā ar visiem tabulas ``deposits`` ierakstiem, uzspiežot uz kādu no saraksta elementiem, tiek atvērta lapa ar informāciju par konkrētu ``deposits`` tabulas ierakstu.
+- Iesniegt darbu kā saiti uz GitHub repozitoriju
+
+Piemērs: https://lufinalexam.herokuapp.com/

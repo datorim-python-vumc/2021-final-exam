@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create deposit</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        Deposit (euro): <input type="number" name="deposit"> <br>
+        Term (years): <input type="number" name="term"> <br>
+        Rate (decimal): <input type="number" step="any" name="rate"> <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
